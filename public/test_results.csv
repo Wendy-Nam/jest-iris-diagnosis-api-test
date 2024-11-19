@@ -1,59 +1,59 @@
 Index,FileName,Extension,Size,ResponseTime,Status,Message
-1,cat_face10_cropped.jpg,jpg,87.38 KB,1581 ms,Success,No message
-2,cat_face11.jpeg,jpeg,8.49 KB,1423 ms,Success,No message
-3,cat_face11_cropped.jpeg,jpeg,2.29 KB,928 ms,Success,No message
-4,cat_face15.jpeg,jpeg,5.11 KB,1644 ms,Success,No message
-5,cat_face15_cropped.jpeg,jpeg,1.68 KB,1031 ms,Success,No message
-6,cat_face16.webp,webp,24.42 KB,2852 ms,Success,No message
-7,cat_face16_cropped.jpeg,jpeg,18.54 KB,999 ms,Success,No message
-8,cat_face17_cropped.jpeg,jpeg,5.85 KB,884 ms,Success,No message
-9,cat_face18.jpeg,jpeg,5.98 KB,926 ms,Success,No message
-10,cat_face18_cropped.jpeg,jpeg,1.50 KB,1034 ms,Success,No message
-11,cat_face19_cropped.jpeg,jpeg,3.37 KB,690 ms,Success,No message
-12,cat_face20.jpeg,jpeg,7.54 KB,964 ms,Success,No message
-13,cat_face20_cropped.jpeg,jpeg,4.58 KB,828 ms,Success,No message
-14,cat_face3.jpeg,jpeg,5.97 KB,1939 ms,Success,No message
-15,cat_face3_cropped.jpeg,jpeg,1.66 KB,828 ms,Success,No message
-16,cat_face4_cropped.jpg,jpg,3.38 KB,838 ms,Success,No message
-17,cat_face6.jpeg,jpeg,8.73 KB,1203 ms,Success,No message
-18,cat_face6_cropped.jpeg,jpeg,2.96 KB,936 ms,Success,No message
-19,cat_face7_cropped.png,png,120.32 KB,1439 ms,Success,No message
-20,close_cat0.jpeg,jpeg,12.73 KB,990 ms,Success,No message
-21,close_cat1.jpeg,jpeg,11.68 KB,1153 ms,Success,No message
-22,close_cat2.jpeg,jpeg,8.59 KB,1031 ms,Success,No message
-23,close_cat4.jpeg,jpeg,11.27 KB,1574 ms,Success,No message
-24,close_cat5.webp,webp,94.58 KB,2887 ms,Success,No message
-25,close_cat7.jpeg,jpeg,7.11 KB,1071 ms,Success,No message
-26,close_cat8.jpeg,jpeg,5.53 KB,1052 ms,Success,No message
-27,close_cat_eyes.webp,webp,40.41 KB,3388 ms,Success,No message
-28,close_cat_eyes2.jpeg,jpeg,9.98 KB,1121 ms,Success,No message
-29,cat_face1.jpeg,jpeg,96.33 KB,1713 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-30,cat_face10.jpg,jpg,318.87 KB,1543 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.8, cat_prob: 0.2
-31,cat_face12.jpg,jpg,205.97 KB,6367 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-32,cat_face12_cropped.jpg,jpg,91.89 KB,2720 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-33,cat_face13.webp,webp,50.74 KB,1540 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-34,cat_face13_cropped.jpeg,jpeg,23.77 KB,804 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-35,cat_face14.webp,webp,53.97 KB,1642 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-36,cat_face14_cropped.jpeg,jpeg,39.56 KB,761 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-37,cat_face17.webp,webp,26.07 KB,945 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.81, cat_prob: 0.19
-38,cat_face19.jpeg,jpeg,10.95 KB,623 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.91, cat_prob: 0.09
-39,cat_face1_cropped.jpeg,jpeg,18.48 KB,516 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.81, cat_prob: 0.19
-40,cat_face2.jpeg,jpeg,13.24 KB,526 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-41,cat_face21.jpg,jpg,1419.28 KB,842 ms,Error (500),Maximum upload size exceeded
-42,cat_face21_cropped.jpg,jpg,103.96 KB,1438 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-43,cat_face21_cropped_2.jpg,jpg,55.94 KB,1136 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-44,cat_face2_cropped.jpeg,jpeg,2.38 KB,524 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+1,cat_face10_cropped.jpg,jpg,87.38 KB,1632 ms,Success,Unknown
+2,cat_face11.jpeg,jpeg,8.49 KB,1242 ms,Success,Unknown
+3,cat_face11_cropped.jpeg,jpeg,2.29 KB,838 ms,Success,Unknown
+4,cat_face15.jpeg,jpeg,5.11 KB,1540 ms,Success,Unknown
+5,cat_face15_cropped.jpeg,jpeg,1.68 KB,901 ms,Success,Unknown
+6,cat_face16.webp,webp,24.42 KB,2795 ms,Success,Unknown
+7,cat_face16_cropped.jpeg,jpeg,18.54 KB,1139 ms,Success,Unknown
+8,cat_face17_cropped.jpeg,jpeg,5.85 KB,842 ms,Success,Unknown
+9,cat_face18.jpeg,jpeg,5.98 KB,1201 ms,Success,Unknown
+10,cat_face18_cropped.jpeg,jpeg,1.50 KB,763 ms,Success,Unknown
+11,cat_face19_cropped.jpeg,jpeg,3.37 KB,811 ms,Success,Unknown
+12,cat_face20.jpeg,jpeg,7.54 KB,937 ms,Success,Unknown
+13,cat_face20_cropped.jpeg,jpeg,4.58 KB,737 ms,Success,Unknown
+14,cat_face3.jpeg,jpeg,5.97 KB,1955 ms,Success,Unknown
+15,cat_face3_cropped.jpeg,jpeg,1.66 KB,781 ms,Success,Unknown
+16,cat_face4_cropped.jpg,jpg,3.38 KB,868 ms,Success,Unknown
+17,cat_face6.jpeg,jpeg,8.73 KB,1151 ms,Success,Unknown
+18,cat_face6_cropped.jpeg,jpeg,2.96 KB,795 ms,Success,Unknown
+19,cat_face7_cropped.png,png,120.32 KB,1173 ms,Success,Unknown
+20,close_cat0.jpeg,jpeg,12.73 KB,1043 ms,Success,Unknown
+21,close_cat1.jpeg,jpeg,11.68 KB,971 ms,Success,Unknown
+22,close_cat2.jpeg,jpeg,8.59 KB,1102 ms,Success,Unknown
+23,close_cat4.jpeg,jpeg,11.27 KB,1079 ms,Success,Unknown
+24,close_cat5.webp,webp,94.58 KB,3971 ms,Success,Unknown
+25,close_cat7.jpeg,jpeg,7.11 KB,1211 ms,Success,Unknown
+26,close_cat8.jpeg,jpeg,5.53 KB,1433 ms,Success,Unknown
+27,close_cat_eyes.webp,webp,40.41 KB,3249 ms,Success,Unknown
+28,close_cat_eyes2.jpeg,jpeg,9.98 KB,911 ms,Success,Unknown
+29,cat_face1.jpeg,jpeg,96.33 KB,1994 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+30,cat_face10.jpg,jpg,318.87 KB,2441 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.8, cat_prob: 0.2
+31,cat_face12.jpg,jpg,205.97 KB,6650 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+32,cat_face12_cropped.jpg,jpg,91.89 KB,2811 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+33,cat_face13.webp,webp,50.74 KB,1619 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+34,cat_face13_cropped.jpeg,jpeg,23.77 KB,565 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+35,cat_face14.webp,webp,53.97 KB,1596 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+36,cat_face14_cropped.jpeg,jpeg,39.56 KB,652 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+37,cat_face17.webp,webp,26.07 KB,797 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.81, cat_prob: 0.19
+38,cat_face19.jpeg,jpeg,10.95 KB,507 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.91, cat_prob: 0.09
+39,cat_face1_cropped.jpeg,jpeg,18.48 KB,567 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.81, cat_prob: 0.19
+40,cat_face2.jpeg,jpeg,13.24 KB,537 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+41,cat_face21.jpg,jpg,1419.28 KB,1110 ms,Error (500),Maximum upload size exceeded
+42,cat_face21_cropped.jpg,jpg,103.96 KB,1801 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+43,cat_face21_cropped_2.jpg,jpg,55.94 KB,1396 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+44,cat_face2_cropped.jpeg,jpeg,2.38 KB,790 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
 45,cat_face4.jpg,jpg,28.18 KB,836 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.94, cat_prob: 0.06
-46,cat_face5.jpeg,jpeg,6.03 KB,498 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.98, cat_prob: 0.02
-47,cat_face5_cropped.jpeg,jpeg,1.94 KB,524 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-48,cat_face7.png,png,772.83 KB,2729 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-49,cat_face8.jpg,jpg,96.02 KB,904 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-50,cat_face8_cropped.jpg,jpg,12.12 KB,550 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-51,cat_face9.jpeg,jpeg,6.52 KB,521 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-52,cat_face9_cropped.jpeg,jpeg,1.72 KB,549 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-53,close_cat3.webp,webp,20.01 KB,628 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-54,close_cat6.jpg,jpg,16.13 KB,588 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.79, cat_prob: 0.21
-55,close_cat9.jpeg,jpeg,12.16 KB,508 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.99, cat_prob: 0.01
-56,close_cat_eyes3.jpeg,jpeg,14.30 KB,543 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.98, cat_prob: 0.02
-57,close_dog1.jpg,jpg,53.21 KB,1292 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
-58,close_dog2.jpeg,jpeg,8.54 KB,669 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+46,cat_face5.jpeg,jpeg,6.03 KB,593 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.98, cat_prob: 0.02
+47,cat_face5_cropped.jpeg,jpeg,1.94 KB,497 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+48,cat_face7.png,png,772.83 KB,2878 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+49,cat_face8.jpg,jpg,96.02 KB,1053 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+50,cat_face8_cropped.jpg,jpg,12.12 KB,574 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+51,cat_face9.jpeg,jpeg,6.52 KB,534 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+52,cat_face9_cropped.jpeg,jpeg,1.72 KB,504 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+53,close_cat3.webp,webp,20.01 KB,696 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+54,close_cat6.jpg,jpg,16.13 KB,483 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.79, cat_prob: 0.21
+55,close_cat9.jpeg,jpeg,12.16 KB,577 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.99, cat_prob: 0.01
+56,close_cat_eyes3.jpeg,jpeg,14.30 KB,542 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 0.98, cat_prob: 0.02
+57,close_dog1.jpg,jpg,53.21 KB,914 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0
+58,close_dog2.jpeg,jpeg,8.54 KB,642 ms,Error (400),AI 모델 서버에서 오류 발생: 400 BAD_REQUEST - petType이 일치하지 않습니다. dog_prob: 1.0, cat_prob: 0.0

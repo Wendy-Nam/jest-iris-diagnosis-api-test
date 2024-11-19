@@ -6,8 +6,10 @@ const FormData = require("form-data");
 const API_URL = "http://###//ai/eye?PetType=cat";
 const COOKIE = "JSESSIONID=***";
 
-const IMAGE_FOLDER = "./unit_test_catEye";
-const HTML_FILE = path.join(__dirname, "image_test_report.html");
+// vercel에 html 배포되게끔 경로를 "/" 부터 시작하게 수정함.
+
+const IMAGE_FOLDER = "unit_test_catEye"; 
+const HTML_FILE = path.join(__dirname, "index.html");
 const CSV_FILE = path.join(__dirname, "test_results.csv");
 
 const successImages = [];
@@ -32,7 +34,7 @@ const saveToCsv = () => {
     img.size,
     img.responseTime,
     img.success ? "Success" : `Error (${img.errorCode})`,
-    img.errorMessage || "No message",
+    img.errorMessage || "Unknown",
   ]);
 
   const csvContent = [headers.join(","), ...rows.map((row) => row.join(","))].join("\n");
@@ -92,7 +94,7 @@ const generateHtmlReport = (startTime, endTime) => {
       ? Object.entries(img.responseData || {}).map(([key, value]) => `${key}: ${value.toFixed(2)}%`).join("\n")
       : img.errorCode === 400
       ? `400 종 판정 불일치\ndog_prob: ${parseErrorMessage(img.errorMessage).dog_prob}\ncat_prob: ${parseErrorMessage(img.errorMessage).cat_prob}`
-      : img.errorMessage || "Unknown Error";
+      : img.errorMessage || "Unknown Error (Exceeded timeout of 5000 ms for a test)";
 
     return `
       <tr class="${img.success ? "hover:bg-green-200 bg-green-100" : "hover:bg-red-200 bg-red-100"}">
@@ -100,7 +102,7 @@ const generateHtmlReport = (startTime, endTime) => {
         <td class="relative">
           <div class="avatar tooltip tooltip-right" data-tip="${tooltipMessage}">
             <div class="mask rounded-lg h-12 w-12">
-              <img src="./${IMAGE_FOLDER}/${fileName}" alt="${fileNameWithoutExtension}">
+              <img src="/${IMAGE_FOLDER}/${fileName}" alt="${fileNameWithoutExtension}">
             </div>
           </div>
         </td>
@@ -122,7 +124,7 @@ const generateHtmlReport = (startTime, endTime) => {
     return `
       <div class="card shadow-md rounded-lg w-40 h-40 tooltip" data-tip="${tooltipMessage}">
         <figure class="h-3/4 overflow-hidden">
-          <img src="./${IMAGE_FOLDER}/${img.imageName}" alt="${img.imageName}" class="object-cover h-full w-full">
+          <img src="/${IMAGE_FOLDER}/${img.imageName}" alt="${img.imageName}" class="object-cover h-full w-full">
         </figure>
         <div class="card-body p-1 flex items-center justify-center">
           <h2 class="text-center text-xs font-medium truncate" title="${img.imageName}">${img.imageName}</h2>
@@ -140,7 +142,7 @@ const generateHtmlReport = (startTime, endTime) => {
     return `
       <div class="card shadow-md rounded-lg w-40 h-40 tooltip" data-tip="${tooltipMessage}">
         <figure class="h-3/4 overflow-hidden">
-          <img src="./${IMAGE_FOLDER}/${img.imageName}" alt="${img.imageName}" class="object-cover h-full w-full">
+          <img src="/${IMAGE_FOLDER}/${img.imageName}" alt="${img.imageName}" class="object-cover h-full w-full">
         </figure>
         <div class="absolute top-2 left-2 badge ${badgeClass} text-white text-xs">
           ${img.errorCode === 400 ? "400" : `${img.errorCode}`}
@@ -192,11 +194,11 @@ const generateHtmlReport = (startTime, endTime) => {
         </section>
         <section class="mb-10">
           <h2 class="text-lg font-medium mb-5">✅ Success Gallery</h2>
-          <div class="grid grid-cols-4 gap-4">${gallerySuccess}</div>
+          <div class="flex flex-wrap gap-4">${gallerySuccess}</div>
         </section>
         <section>
           <h2 class="text-lg font-medium mb-5">❌ Failure Gallery</h2>
-          <div class="grid grid-cols-4 gap-4">${galleryFailure}</div>
+          <div class="flex flex-wrap gap-4">${galleryFailure}</div>
         </section>
       </div>
       </div>
