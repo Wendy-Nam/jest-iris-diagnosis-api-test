@@ -5,7 +5,6 @@
 > **실제 테스트 결과 리포트:**  
 > [결과 리포트 웹사이트 (Vercel 배포)](https://jest-ai-cateye.vercel.app)  
 > [분석 이슈 상세 (GitHub Issue #37)](https://github.com/KAU-SMART-PETS/Capstone_FE/issues/37)  
-> [테스트 이미지 및 결과 CSV](https://github.com/Wendy-Nam/jest_ai_cateye)
 
 ---
 
