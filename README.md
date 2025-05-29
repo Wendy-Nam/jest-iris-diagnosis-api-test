@@ -2,9 +2,10 @@
 
 > 본 프로젝트는 AI 분석 API의 신뢰성 확보 및 품질 개선을 위한 내부 테스트 자동화 도구입니다.
 
-> **실제 테스트 결과 리포트:**  
-> [결과 리포트 웹사이트 (Vercel 배포)](https://jest-ai-cateye.vercel.app)  
-> [분석 이슈 상세 (GitHub Issue #37)](https://github.com/KAU-SMART-PETS/Capstone_FE/issues/37)  
+## **실제 테스트 결과 리포트:**  
+
+### 1. [결과 리포트 웹사이트 (Vercel 배포)](https://jest-ai-cateye.vercel.app)  
+### 2. [분석 이슈 상세 (GitHub Issue #37)](https://github.com/KAU-SMART-PETS/Capstone_FE/issues/37)  
 
 ---
 
