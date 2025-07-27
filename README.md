@@ -1,74 +1,76 @@
-# AI 홍채이미지 분석 API 자동화 테스트
+# AI Iris Image Analysis API Automated Testing
 
-> 본 프로젝트는 AI 분석 API의 신뢰성 확보 및 품질 개선을 위한 내부 테스트 자동화 도구입니다.
+> This project is an internal test automation tool for ensuring reliability and improving quality of AI analysis APIs.
 
-## **실제 테스트 결과 리포트:**  
+## **Actual Test Results Report:**  
 
-### 1. [결과 리포트 웹사이트 (Vercel 배포)](https://jest-ai-cateye.vercel.app)  
-### 2. [분석 이슈 상세 (GitHub Issue #37)](https://github.com/KAU-SMART-PETS/Capstone_FE/issues/37)  
+### 1. [Results Report Website (Vercel Deployment)](https://jest-ai-cateye.vercel.app)  
+### 2. [Analysis Issues Details (GitHub Issue #37)](https://github.com/KAU-SMART-PETS/Capstone_FE/issues/37)  
 
 ---
 
-## 프로젝트 개요
+## Project Overview
 
-AI 이미지 분석 API의 **비일관적 응답** 문제를 추적하고, 사용자 서비스 신뢰성 확보를 위해 **Jest 기반 자동화 테스트** 및 시각화 리포트를 제작했습니다.
+We created **Jest-based automated testing** and visualization reports to track **inconsistent response** issues in AI image analysis APIs and ensure service reliability for users.
 
-| 주요 목적 | 상세 내용 |
+| Main Purpose | Details |
 |:---|:---|
-| 신뢰성 검증 | 실제 사용자 이미지로 AI 홍채분석 API의 응답 일관성 확인 |
-| 문제 추적 | 이미지 해상도/용량/포맷별 예외 및 실패 케이스 자동 수집 |
-| 결과 시각화 | HTML/CSV 리포트로 성공/실패 및 상세 원인 분석 |
+| Reliability Verification | Verify response consistency of AI iris analysis API with real user images |
+| Issue Tracking | Automatically collect exceptions and failure cases by image resolution/size/format |
+| Result Visualization | Analyze success/failure and detailed causes with HTML/CSV reports |
 
 ---
 
-## 주요 기능
+## Key Features
 
-- **53개+ 테스트 이미지**로 API 유닛 테스트 자동화
-- 이미지별 응답 성공/실패, 상세 메시지, 응답 시간, 파일 크기 등 기록
-- **HTML 리포트** 및 **CSV 파일**로 결과 저장
-- 성공/실패 사례를 표와 갤러리로 시각화
+- **53+ test images** for API unit test automation
+- Record response success/failure, detailed messages, response time, file size per image
+- Save results as **HTML reports** and **CSV files**
+- Visualize success/failure cases in tables and galleries
 
 ---
 
-## 빠른 시작
+## Quick Start
 
-1. **테스트 이미지 준비**  
-   `unit_test_catEye` 폴더에 이미지를 넣으세요.
+1. **Prepare Test Images**  
+   Place images in the `unit_test_catEye` folder.
 
-2. **테스트 실행**  
+2. **Run Tests**  
    ```bash
    npm install
    npx jest public/catEye.test.js
    ```
 
-3. **결과 확인**  
-   - `public/index.html` : 시각화 리포트  
-   - `public/test_results.csv` : 결과 로그
+3. **Check Results**  
+   - `public/index.html` : Visualization report  
+   - `public/test_results.csv` : Result logs
 
 ---
 
-## 테스트 결과 요약
+## Test Results Summary
 
-| 구분 | 정상 처리 | 오류 발생 |
+| Category | Normal Processing | Error Occurrence |
 |:---:|:---:|:---:|
-| **강아지 이미지** | 대부분 성공 | - |
-| **고양이 이미지** | 일부만 성공 | 대부분 실패 |
+| **Dog Images** | Mostly successful | - |
+| **Cat Images** | Partially successful | Mostly failed |
 
-- **오류 원인:**  
-  - 고양이 이미지는 6~12KB 초저용량만 처리 가능, 일반 스마트폰 사진(수 MB)은 모두 실패  
-  - 이미지의 눈 확대 정도, 주변 피부조직 포함 여부에 따라 결과 오차 큼  
-  - AI 모델이 학술용 데이터에만 과적합(Overfitting)되어 일반 사용자 이미지는 처리 불가  
-  - 동일 이미지라도 해상도/압축 방식에 따라 결과 달라짐
+- **Error Causes:**  
+  - Cat images can only process ultra-low capacity of 6~12KB, all general smartphone photos (several MB) fail  
+  - Large result errors depending on eye magnification level and inclusion of surrounding skin tissue in images  
+  - AI model is overfitted to academic data only, unable to process general user images  
+  - Results vary even for the same image depending on resolution/compression method
 
 ---
 
-## 분석 이슈 및 결론
+## Analysis Issues and Conclusions
 
-- **기간:** 2023.10.30 ~ 2023.11.17
-- **참여:**  
-  - API 요청 테스트 및 트러블슈팅 협업  
-  - Jest 자동화 테스트 설계 및 구현 담당
+- **Period:** October 30, 2023 ~ November 17, 2023
+- **Participation:**  
+  - API request testing and troubleshooting collaboration  
+  - Jest automation test design and implementation responsibility
 
-- **결론:**  
-    - 학술연구용 이미지는 정상적으로 처리되었으나, 일반 사용자가 촬영한 사진(눈 주변의 조직이 포함된 경우 등)은 50% 이상에서 오류가 발생함
-  - AI 모델의 데이터 처리 한계 및 서버 이미지 용량 제한이 주요 원인으로 추정되어 이를 담당 인원에게 전달함.
+- **Conclusion:**  
+    - Academic research images were processed normally, but photos taken by general users (cases including tissue around the eyes, etc.) had errors in over 50% of cases
+  - AI model's data processing limitations and server image capacity restrictions were identified as main causes and reported to the responsible personnel.
+
+
